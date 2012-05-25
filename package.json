@@ -1,0 +1,12 @@
+{
+  "name": "e3-analytics",
+  "author": {
+    "name": "Ori Livneh",
+    "email": "ori@wikimedia.org"
+  },
+  "main": "./e3.js",
+  "dependencies": {
+      "node-uuid": "1.3.x",
+      "node-redis": "0.1.x"
+  },
+}
