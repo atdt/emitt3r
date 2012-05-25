@@ -1,12 +1,22 @@
 {
-  "name": "e3-analytics",
-  "author": {
-    "name": "Ori Livneh",
-    "email": "ori@wikimedia.org"
+  "author": "Ori Livneh <ori@wikimedia.org> (https://github.com/atdt)",
+  "name": "emitt3r",
+  "description": "udp2log => node.js emitter",
+  "version": "0.0.0",
+  "homepage": "https://github.com/atdt/emitt3r",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/atdt/emitt3r.git"
   },
-  "main": "./e3.js",
+  "main": "lib/emitt3r.js",
   "dependencies": {
-      "node-uuid": "1.3.x",
-      "node-redis": "0.1.x"
+    "node-uuid": "1.3.x",
+    "hiredis": "0.1.x",
+    "node-redis": "0.1.x"
   },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
 }
